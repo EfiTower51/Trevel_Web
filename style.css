@@ -1,0 +1,56 @@
+body
+{
+    font-family: 'Microsoft JhengHei';
+    font-size: 17px;
+}
+
+header
+{
+    text-align: center;
+    font-size: 27px;
+
+}
+
+nav
+{
+    text-align: center;
+    font-size: 23px;
+}
+
+main
+{
+    border: width 30%;
+    background-color: aquamarine;
+}
+article
+{
+
+    font-size: 17px;
+    border: width 15%;
+    text-align: center;
+}
+
+div
+{
+
+    text-align: center;
+    font-size: 29px;
+    color:aliceblue;
+    background: #0e0f0f;
+    
+}
+
+aside
+{
+    border:right 60%;
+    width: 25%;
+    font-size:17px;
+}
+
+footer
+{
+    color:white;
+    background-color:#232323 ;
+    text-align: center;
+    font-size: 13px;
+}
