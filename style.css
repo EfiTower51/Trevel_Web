@@ -30,13 +30,19 @@ article
     text-align: center;
 }
 
+banner
+{
+    border: left 60%;
+    background-color:#0567aa;
+}
+
 div
 {
 
     text-align: center;
     font-size: 29px;
     color:aliceblue;
-    background: #0e0f0f;
+    background-color: #0e0f0f;
     
 }
 
@@ -48,9 +54,10 @@ aside
 }
 
 footer
-{
+{  
     color:white;
     background-color:#232323 ;
     text-align: center;
     font-size: 13px;
+    float:bottom;
 }
