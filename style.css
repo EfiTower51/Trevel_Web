@@ -6,7 +6,7 @@ body
 
 header
 {
-    text-align: center;
+    text-align: right;
     font-size: 27px;
 
 }
@@ -29,13 +29,6 @@ article
     border: width 15%;
     text-align: center;
 }
-
-banner
-{
-    border: left 60%;
-    background-color:#0567aa;
-}
-
 div
 {
 
