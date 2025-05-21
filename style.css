@@ -5,9 +5,8 @@ body {
 
 header {
   height: 40px;
-  margin-left: 7%;
-  border-color: blue;
-  border: 10px;
+  margin-left: 7rem;
+  border: 10px soild blue;
   text-align: left;
   font-size: 20px;
 }
@@ -18,13 +17,13 @@ nav {
 }
 
 main {
-  border: width 3%;
+  border: width 5px;
   margin: 2px;
 }
 
 article {
   font-size: 17px;
-  border: width 1%;
+  border: width 3rem;
   text-align: left;
   background-color: aquamarine;
 }
@@ -35,20 +34,26 @@ div {
 }
 
 div.banner {
+  width: 26rem;
+  height: 350px;
+  margin: 5px;
+  padding: 5px;
+  background-color:#b0e2f0 ;
+  display: inline-block;
 }
 
 span.box {
-  width: 18%;
+  width: 22rem;
   height: 400px;
   margin: 2px;
-  padding: 3px;
+  padding: 5px;
   color: aliceblue;
   background-color: #120a7e;
   display: inline-block;
 }
 
 aside {
-  border: right 60%;
+  margin: right 60rem;
   width: 25%;
   font-size: 17px;
 }
@@ -58,5 +63,4 @@ footer {
   background-color: #232323;
   text-align: center;
   font-size: 13px;
-  float: bottom;
 }
