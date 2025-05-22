@@ -1,8 +1,3 @@
-body {
-  font-family: "Microsoft JhengHei";
-  font-size: 17px;
-}
-
 header {
   height: 40px;
   margin-left: 7rem;
@@ -21,6 +16,10 @@ main {
   margin: 2px;
 }
 
+p {
+  font-family: "Microsoft JhengHei";
+  font-size: 19px;
+}
 article {
   font-size: 17px;
   border: width 3rem;
@@ -33,22 +32,32 @@ div {
   font-size: 29px;
 }
 
-div.banner {
-  width: 26rem;
-  height: 350px;
-  margin: 5px;
-  padding: 5px;
-  background-color:#b0e2f0 ;
-  display: inline-block;
-}
-
-span.box {
+div.ski {
   width: 22rem;
   height: 400px;
   margin: 2px;
   padding: 5px;
   color: aliceblue;
   background-color: #120a7e;
+  display: inline-block;
+}
+
+div.banner {
+  width: 27rem;
+  height: 500px;
+  margin: 11px;
+  padding: 7px;
+  background-color:#b0e2f0 ;
+  display: inline-block;
+}
+
+div.hotel {
+  width: 27rem;
+  height: 500px;
+  margin: 11px;
+  padding: 7px;
+  color: aliceblue;
+  background-color: #141146;
   display: inline-block;
 }
 
