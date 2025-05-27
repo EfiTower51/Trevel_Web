@@ -20,47 +20,49 @@ p {
   font-family: "Microsoft JhengHei";
   font-size: 19px;
 }
+
 article {
   font-size: 17px;
   text-align: left;
+  margin: 2px;
   background-color: aquamarine;
 }
 
 div {
   text-align: center;
-  font-size: 29px;
+  font-size: 25px;
 }
 
 div.ski {
-  width: 22rem;
-  height: 400px;
-  margin: 2px;
+  width: 350px;
+  height: 500px;
+  margin: 5px;
   padding: 5px;
   color: aliceblue;
   background-color: #080531;
-  display: grid;
-   grid-auto-flow: column;
+  display: inline-grid;
+  grid-auto-rows: 125px;
 }
 
 div.banner {
-  width: 27rem;
+  width: 450px;
   height: 500px;
   margin: 11px;
   padding: 7px;
   background-color:#b0e2f0 ;
-  display: grid;
-   grid-auto-flow: column;
+ display: inline-grid;
+  grid-auto-rows: 100px;
 }
 
 div.hotel {
-  width: 27rem;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   margin: 11px;
   padding: 7px;
   color: aliceblue;
   background-color: #2b2779;
-  display: grid;
-   grid-auto-flow: column;
+ display: inline-grid;
+  grid-auto-rows: 100px;
 }
 
 aside {
