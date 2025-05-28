@@ -30,14 +30,14 @@ article {
 
 div {
   text-align: center;
-  font-size: 25px;
+  font-size: 26px;
 }
 
 div.ski {
   width: 350px;
   height: 500px;
-  margin: 5px;
-  padding: 5px;
+  margin: 3px;
+  padding: 3px;
   color: aliceblue;
   background-color: #080531;
   display: inline-grid;
