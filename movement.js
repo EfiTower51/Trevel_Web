@@ -1,10 +1,10 @@
-fetch('sky.json')
+fetch('ski.json')
 
      .then(response => response.json())
 
      .then(data => {
 
-       document.getElementById('preline').textContent = sky.content;
+       document.getElementById('preline').textContent = ski.content;
 
      })
 

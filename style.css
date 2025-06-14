@@ -77,3 +77,43 @@ footer {
   text-align: center;
   font-size: 13px;
 }
+
+@media only screen and (min-width: 1024px) {
+  .ski {
+
+  }
+  .hotel {
+
+  }
+  .banner{
+    
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .ski {
+
+  }
+  .hotel {
+
+  }
+  .banner{
+    
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  
+.ski {
+
+  }
+  .hotel {
+
+  }
+  .banner{
+    
+  }
+
+}
