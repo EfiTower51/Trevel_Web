@@ -31,7 +31,7 @@ article {
 div {
   text-align: center;
   font-size: 26px;
-  grid-template-columns:auto; 
+  
 }
 
 div.ski {
@@ -42,7 +42,7 @@ div.ski {
   color: aliceblue;
   background-color: #080531;
   display: inline-grid;
-  grid-auto-rows: max-content;
+  grid-template-columns: auto; 
 }
 
 div.banner {
@@ -50,9 +50,9 @@ div.banner {
   height: 500px;
   margin: 11px;
   padding: 7px;
-  background-color:#b0e2f0 ;
- display: inline-grid;
-  grid-auto-rows: max-content;
+  background-color:#b0e2f0;
+  display: inline-grid;
+  grid-template-columns: auto;
 }
 
 div.hotel {
@@ -63,7 +63,7 @@ div.hotel {
   color: aliceblue;
   background-color: #2b2779;
   display: inline-grid;
-  grid-auto-rows: max-content;
+  grid-template-columns: auto;
 }
 
 aside {
@@ -79,35 +79,55 @@ footer {
   font-size: 13px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   
-div{
-  width: 300px;
+div.sky{
+  grid-auto-flow: row;
+  width: 350px;
+  margin: 3px;
 }
+
+div.hotel{
+  grid-auto-flow: row;
+  width: 350px;
+  margin: 3px;
+}
+
 div.banner{
-  padding: 3px;
+  grid-auto-flow: row;
+  width: 350px;
+  margin: 3px;
 }
 
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
 
-div{
- 
+div.sky{
+  grid-auto-rows: 2;
 }
 
-
+div.hotel{
+  grid-auto-rows: 2;
 }
 
+div.banner{
+  grid-auto-rows: 2;
+}
+
+}
 @media screen and (min-width: 1024px) {
 
+div.sky{
+  grid-auto-rows: min-content;
+}
 
- div{
-   grid-auto-columns: 350px;
+div.hotel{
+  grid-auto-rows: min-content;
+}
+
+div.banner{
+  grid-auto-rows: min-content;
 }
 
 }
-
-
-
-
