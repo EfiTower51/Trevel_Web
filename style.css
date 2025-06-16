@@ -1,7 +1,7 @@
 header {
-  height: 40px;
-  margin-left: 7px;
-  border: 10px solid blue;
+  height: 60px;
+  margin-left: 8px;
+  border: 2px solid blue;
   text-align: left;
   font-size: 20px;
 }
@@ -104,30 +104,30 @@ footer {
 @media screen and (min-width: 768px) {
 
 .ski{
-  grid-auto-rows: 2;
+  grid-auto-rows: fit-content(400px);
 }
 
 .hotel{
-  grid-auto-rows: 2;
+  grid-auto-rows: fit-content(400px);
 }
 
 .banner{
-  grid-auto-rows: 2;
+  grid-auto-rows: fit-content(400px);
 }
 
 }
 @media screen and (min-width: 1024px) {
 
 .sky{
-  grid-auto-rows: min-content;
+  grid-auto-rows: max-content;
 }
 
 .hotel{
-  grid-auto-rows: min-content;
+  grid-auto-rows: max-content;
 }
 
 .banner{
-  grid-auto-rows: min-content;
+  grid-auto-rows: max-content;
 }
 
 }
