@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
   <head>
-    <meta charser="UTF-8" />
-    <title>旅遊導覽網站</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=2">
+    <title>日本滑雪旅遊導覽</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="reset.css" />
     <script type="text/javascript" src="movement.js"></script>
@@ -10,42 +11,67 @@
 
   <body>
     <nav>
-      <h2>想滑雪卻不知道到哪裡比較划算嗎？那你來對地方了！</h2>
+      <h2 class="top">想滑雪卻不知道到哪裡比較划算嗎？那你來對地方了！</h2>
     </nav>
     <header>
-      <img src="Picture/test_Pic.png" width="50px" alt="profile" />
-      發文者：布萊sssss因塔而生
-      <u></u>
+         <img src="Picture/test_Pic.png" width="50px" alt="profile" /> 發文者：布萊ssssss
     </header>
     <main>
+      
       <article>
-        <p>
-          日本一直是滑雪的好去處，不僅因為其地理環境優越，還因為完善的設施與豐富的雪場選擇。每年冬季，日本各地的山區都會降下大量優質粉雪，特別是在北海道與長野縣，雪質細緻鬆軟，被滑雪愛好者稱為「粉雪天堂」。
-        </p>
-        <p>
-          無論是初學者還是專業滑雪者，都能在日本找到適合自己的滑雪場。像是北海道的二世古（Niseko），以國際化的氛圍與多樣滑道聞名；而長野的白馬村則曾是1998年冬季奧運的舉辦地，擁有高品質的設施與壯麗山景。此外，許多滑雪場設有溫泉（溫泉）和滑雪學校，讓旅客在運動之餘，也能放鬆身心，感受日本獨有的「雪與湯」文化。
-        </p>
-        <p>
-          不只如此，日本的交通便捷，從東京或札幌出發，多數滑雪場都能在數小時內抵達，使得短期旅行也十分適合。加上當地美食與親切的服務，使滑雪在日本成為一種全方位的享受。對於喜愛冬季活動的旅人而言，日本始終是不可錯過的滑雪聖地。
-        </p>
-        <div>
-          <p>滑雪場介紹</p>
-          <span class="box">北海道 </span>
-          <span class="box">いちうち </span>
-          <span class="box">猪苗代 </span>
-          <span class="box">かぐら </span>
-          <span class="box">湯沢中里 </span>
-        </div>
-        <div>
-          <nav>
-          <h3>交通資訊</h3>
-        </nav>
-        <div class="banner">日本JR</div>
-        <div class="banner">再來線</div>
-        <div class="banner">火車（）</div>
-        <div class="banner">火車（）</div>
-        </div>
+          <h2>滑雪場介紹</h2>
+          <div>
+          <div class="ski" id="kohaidon">
+          北海道 
+          <p>json test</p>
+            <a href="https://www.funliday.com/posts/hokkaido-skiing/" target="_blank">參考資料</a>
+          </div>
+          <div class="ski" id="ishiuchi">
+          石打丸山
+          <p>json test</p>
+            <a href="https://ishiuchi.or.jp/winter/ski/" target="_blank">參考資料</a>
+          </div>
+          <div class="ski" id="inawashiro">
+          猪苗代 
+          <p>json test</p>
+            <a href="https://www.inawashiro-ski.com/" target="_blank">參考資料</a>
+          </div>
+          <div class="ski" id="kagura">
+          かぐら 
+          <p>json test</p>
+            <a href="https://www.princehotels.co.jp/ski/kagura/winter/" target="_blank">參考資料</a>
+            </div>
+          <div class="ski" id="yuzawa_nakazato">
+          湯沢中里 
+          <p>json test</p>
+            <a href="https://www.yuzawa-nakazato.com/winter/" target="_blank">參考資料</a>
+          </div>
+          </div>
+          <h2>交通資訊</h2>
+          <div>
+          <div class="banner" id="airplane">機場接送
+            <p>json test</p>
+          </div>
+          <div class="banner" id="jpjr">日本JR
+            <p>json test</p>
+          </div>
+          <div class="banner" id="zairaisen">火車（在来線）
+            <p>json test</p>
+          </div>
+          </div>
       </article>
+      <div>
+          <h2>住宿資訊</h2>
+            <div class="hotel" id="big_hotel">飯店
+              <p>json test</p>
+            </div>
+            <div class="hotel" id="mid_hotel">旅館
+              <p>json test</p>
+            </div>
+            <div class="hotel" id="small_hotel">民宿
+              <p>json test</p>
+            </div>
+            </div>
     </main>
 
     <aside>
