@@ -1,63 +1,133 @@
-body
-{
-    font-family: 'Microsoft JhengHei';
-    font-size: 17px;
+header {
+  height: 60px;
+  margin-left: 8px;
+  border: 2px solid blue;
+  text-align: left;
+  font-size: 20px;
 }
 
-header
-{
-    text-align: center;
-    font-size: 27px;
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+main {
+  border-width: 5px;
+  margin: 1px;
+}
+
+p {
+  font-family: "Microsoft JhengHei";
+  font-size: 19px;
+}
+
+article {
+  font-size: 17px;
+  text-align: left;
+  margin: 2px;
+  background-color: aquamarine;
+}
+
+div {
+  text-align: center;
+  font-size: 26px;
+  
+}
+
+div.ski {
+  width: 350px;
+  height: 500px;
+  margin: 3px;
+  padding: 2px;
+  color: aliceblue;
+  background-color: #080531;
+  display: inline-grid;
+  grid-template-columns: auto; 
+}
+
+div.banner {
+  width: 450px;
+  height: 500px;
+  margin: 11px;
+  padding: 7px;
+  background-color:#b0e2f0;
+  display: inline-grid;
+  grid-template-columns: auto;
+}
+
+div.hotel {
+  width: 400px;
+  height: 400px;
+  margin: 11px;
+  padding: 7px;
+  color: aliceblue;
+  background-color: #2b2779;
+  display: inline-grid;
+  grid-template-columns: auto;
+}
+
+aside {
+  margin-right: 60px;
+  width: 500px;
+  font-size: 17px;
+}
+
+footer {
+  color: white;
+  background-color: #232323;
+  text-align: center;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 700px) {
+  
+.ski{
+  grid-auto-flow: row;
+  width: 350px;
+  margin: 3px;
+}
+
+.hotel{
+  grid-auto-flow: row;
+  width: 350px;
+  margin: 3px;
+}
+
+.banner{
+  grid-auto-flow: row;
+  width: 350px;
+  margin: 3px;
+}
 
 }
 
-nav
-{
-    text-align: center;
-    font-size: 23px;
+@media screen and (min-width: 768px) {
+
+.ski{
+  grid-auto-rows: fit-content(400px);
 }
 
-main
-{
-    border: width 30%;
-    background-color: aquamarine;
-}
-article
-{
-
-    font-size: 17px;
-    border: width 15%;
-    text-align: center;
+.hotel{
+  grid-auto-rows: fit-content(400px);
 }
 
-banner
-{
-    border: left 60%;
-    background-color:#0567aa;
+.banner{
+  grid-auto-rows: fit-content(400px);
 }
 
-div
-{
+}
+@media screen and (min-width: 1024px) {
 
-    text-align: center;
-    font-size: 29px;
-    color:aliceblue;
-    background-color: #0e0f0f;
-    
+.sky{
+  grid-auto-rows: max-content;
 }
 
-aside
-{
-    border:right 60%;
-    width: 25%;
-    font-size:17px;
+.hotel{
+  grid-auto-rows: max-content;
 }
 
-footer
-{  
-    color:white;
-    background-color:#232323 ;
-    text-align: center;
-    font-size: 13px;
-    float:bottom;
+.banner{
+  grid-auto-rows: max-content;
+}
+
 }
