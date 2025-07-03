@@ -5,9 +5,12 @@ header {
 }
 
 nav{
+  text-align: center;
   background-color: aqua;
   font-size:30px;
-  text-align:center;
+  max-height: 50px;
+  display: grid;
+  grid-auto-flow:column;
 }
 
 h2.top {
@@ -58,7 +61,7 @@ div.ski {
 }
 
 div.banner {
-  width: 450px;
+  min-width: 450px;
   max-height: 500px;
   margin: 11px;
   padding: 7px;
@@ -68,7 +71,7 @@ div.banner {
 }
 
 div.hotel {
-  width: 400px;
+  min-width: 400px;
   max-height: 400px;
   margin: 11px;
   padding: 7px;
@@ -128,7 +131,8 @@ header{
 }
 
 nav{
-  
+  text-align: center;
+  grid-auto-rows: max-content;
 }
 
 .ski{
@@ -151,8 +155,9 @@ header{
 }
 
 nav{
-  min-width: 1500px;
-  grid-auto-rows: max-content;
+  min-width: 500px;
+  min-height: 30px;
+   
 }
 
 
