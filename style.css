@@ -13,6 +13,10 @@ nav{
   grid-auto-flow:column;
 }
 
+nav.picture{
+  display: none;
+}
+
 h2.top {
   text-align: center;
   font-size: 32px;
@@ -94,15 +98,24 @@ footer {
   font-size: 13px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) /*mobile*/ {
   
 header{
+  grid-auto-rows: min-content;
 
+}
+
+nav.picture{
+  display: grid;
+  text-align: right;
+  max-width: 400px;
+  grid-auto-flow: column;
 }
 
 nav{
-  min-width: 350px;
+  grid-auto-rows: max-content;
 }
+
 
 .ski{
   grid-auto-flow: row;
@@ -124,17 +137,20 @@ nav{
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px)/*tablet*/ {
 
-header{
-
-}
 
 nav{
   text-align: center;
   grid-auto-rows: max-content;
 }
 
+.picture{
+  display: grid;
+  max-width: 300px;
+  grid-auto-flow: column;
+}
+
 .ski{
   grid-auto-rows: fit-content(400px);
 }
@@ -148,7 +164,8 @@ nav{
 }
 
 }
-@media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 1370px)/*desktop*/ {
 
 header{
   grid-auto-rows: max-content;
